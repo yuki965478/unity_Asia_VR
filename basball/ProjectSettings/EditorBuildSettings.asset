@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/basketball.unity
+    guid: 8ab6723593103614f96fff9a75759daa
   m_configObjects: {}

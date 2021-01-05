@@ -26,8 +26,8 @@ public class ScoreManager : MonoBehaviour
     //必須添加鋼體Rigibody
     private void OnTriggerEnter(Collider other)
     {
-        //果 碰撞物件的標籤為籃球 就加分
-        if(other.tag=="籃球")
+        //果 碰撞物件的標籤為籃球 就加分 並且 籃球的高度>2
+        if(other.tag=="籃球"&&other.transform.position.y>2f)
         {
             AddScore();
         }
